@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Old Town Lofts Apartments",
+    "address": "16175 Cleveland St, Redmond, WA 98052",
+    "url": "https://www.equityapartments.com/seattle/downtown-redmond/old-town-lofts-apartments",
+    "scraper": "equity_apartments"
+  },
+  {
+    "name": "Riverpark Apartments",
+    "address": "15803 Bear Creek Pkwy, Redmond, WA 98052",
+    "url": "https://www.equityapartments.com/seattle/downtown-redmond/riverpark-apartments",
+    "scraper": "equity_apartments"
+  },
+  {
+    "name": "red160 Apartments",
+    "address": "16015 Cleveland St, Redmond, WA 98052",
+    "url": "https://www.equityapartments.com/seattle/downtown-redmond/red160-apartments",
+    "scraper": "equity_apartments"
+  },
+  {
+    "name": "Zephyr on the Park Apartments",
+    "address": "8020 161st Avenue Northeast, Redmond, WA 98052",
+    "url": "https://www.equityapartments.com/seattle/downtown-redmond/zephyr-on-the-park-apartments",
+    "scraper": "equity_apartments"
+  },
+  {
+    "name": "Veloce Apartments",
+    "address": "8102 161st Avenue Northeast, Redmond, WA 98052",
+    "url": "https://www.equityapartments.com/seattle/downtown-redmond/veloce-apartments",
+    "scraper": "equity_apartments"
+  },
+  {
+    "name": "Station House",
+    "address": "16550 NE 79th St, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/0n9w61mrv71/sightmaps/4812",
+    "scraper": "sight_map"
+  },
+  {
+    "name": "Talisman",
+    "address": "7405 168th Avenue NE, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/e8ywkd32plx/sightmaps/2718",
+    "scraper": "sight_map"
+  },
+  {
+    "name": "Heron Flats and Lofts",
+    "address": "7662 159th Pl NE, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/05eve0o1pqo/sightmaps/2409",
+    "scraper": "sight_map"
+  },
+  {
+    "name": "Blackbird",
+    "address": "7601 159th Pl NE, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/4d7p1qj7wkx/sightmaps/2593",
+    "scraper": "sight_map"
+  },
+  {
+    "name": "The Triangle",
+    "address": "16450 Redmond Way, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/5rxwj32jp1e/sightmaps/12427",
+    "scraper": "sight_map"
+  },
+  {
+    "name": "Radiate Apartments",
+    "address": "16450 Redmond Way, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/e8ywked2wlx/sightmaps/14263",
+    "scraper": "sight_map"
+  },
+  {
+    "name": "Milehouse",
+    "address": "8300 160th Ave NE, Redmond, WA 98052",
+    "url": "https://www.udr.com/seattle-apartments/redmond/milehouse/apartments-pricing/interactive",
+    "pricing_url": "https://www.udr.com/api/internal/data/communities/51713/units",
+    "scraper": "udr"
+  },
+  {
+    "name": "Modera Redmond",
+    "address": "8709 161st Avenue Northeast, Redmond, WA 98052",
+    "url": "https://sightmap.com/app/api/v1/0n9w614ev71/sightmaps/4852",
+    "scraper": "sight_map"
+  }
+]
