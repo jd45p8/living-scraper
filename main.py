@@ -7,6 +7,7 @@ from apartment import Apartment
 from scrapers.equity_apartments import get_equity_apartments
 from scrapers.sight_map import get_sight_map_apartments
 from scrapers.udr import get_udr_apartments
+from scrapers.rent_cafe import get_rent_cafe_apartments
 
 if __name__ == "__main__":
   import os
@@ -63,6 +64,9 @@ if __name__ == "__main__":
     elif scraper == "udr":
       pricing_url = property["pricing_url"]
       new_apartments = get_udr_apartments(apartments_url, pricing_url, property_name, property_address, logger)
+    elif scraper == "rent_cafe":
+      pricing_url = property["pricing_url"]
+      new_apartments = get_rent_cafe_apartments(apartments_url, pricing_url, property_name, property_address, logger)
     else:
       logger.warning(f"Scraper {scraper} not found for {property_name}.")
 
