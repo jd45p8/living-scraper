@@ -2,6 +2,7 @@ from cmath import log
 from copy import deepcopy
 from logging import Logger
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 import requests
 import json
@@ -56,7 +57,13 @@ def get_rent_cafe_apartments(url: str, pricing_url: str, property_name:str, prop
 
       on_click = unit.find(class_="UnitSelect").attrs["onclick"]
       pricing_url_params = pricing_url_params_regex.search(on_click).group()
-      apartment.availability_date = move_in_date_regex.search(pricing_url_params).group()
+      
+      availability_date = unit.find(attrs={"data-label": "Date Available"})
+      if availability_date and availability_date.text == "Available":
+        date = datetime.now()
+        apartment.availability_date = f"{date.month}/{date.day}/{date.year}"
+      else:
+        apartment.availability_date = move_in_date_regex.search(pricing_url_params).group()
 
       pricing_response = requests.get(f"{pricing_url}?{pricing_url_params}")
       if pricing_response is None:
